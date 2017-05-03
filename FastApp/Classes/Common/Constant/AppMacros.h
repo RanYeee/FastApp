@@ -15,8 +15,8 @@
 //屏幕宽高定义
 #define kVCWIDTH self.view.frame.size.width
 #define kVCHEIGHT self.view.frame.size.height
-#define KDeviceWidth [UIScreen mainScreen].bounds.size.width
-#define KDeviceHeight [UIScreen mainScreen].bounds.size.height
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #define FullViewWidth self.frame.size.width
 #define FullViewHeight self.frame.size.height
 

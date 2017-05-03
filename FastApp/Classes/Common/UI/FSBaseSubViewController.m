@@ -29,6 +29,7 @@
                                                                                       action:@selector(backToParentController)];
     backGesture.direction = UISwipeGestureRecognizerDirectionRight;
     [self.view addGestureRecognizer:backGesture];
+    
 }
 
 
